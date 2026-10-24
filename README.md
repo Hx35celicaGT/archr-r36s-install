@@ -46,13 +46,13 @@ Buttons and USB are a third piece, but Arch R normally sets them automatically. 
 
 ## Step 1: Identify your board
 
-Take the back cover off (4 screws) or check the label through the battery area. The board marking is printed on the PCB near the edge.
+Remove the battery cover and move the battery out of the housing (some times they are glued in place so gently remove). check the label through the battery area. The board marking is printed on the PCB near the edge.
 
 | Printed on the board | What it is | Image |
 |---|---|---|
 | `R36S-V1x`, `R36S-V21`, `R36S-V22` (genuine style) | R36S Original | Original |
 | `Y3506_V0x_...` | R36S Soysauce | Original |
-| `V20` clone, `K36`, `G80CA-MB`, `EE clone` | R36S Clone | Clone |
+| `R36s_V20` clone, `K36`, `G80CA-MB`, `EE clone` | R36S Clone | Clone |
 
 **Not sure?** The stock card tells you. In Step 3, an Original board's card has a DTB file you can see (for example `rk3326-r35s-linux.dtb`). A clone's DTB is usually hidden inside the card and reports `rk3326-evb-lp3-v12-linux`. And if you flash the wrong image, a clone shows "BOOT FAILED" or just a lit screen.
 
