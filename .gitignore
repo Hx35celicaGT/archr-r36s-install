@@ -1,0 +1,5 @@
+*.img
+*.img.gz
+*.img.xz
+*_dtbs/
+__pycache__/

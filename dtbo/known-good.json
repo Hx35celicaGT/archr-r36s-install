@@ -1,0 +1,20 @@
+{
+  "v21": {
+    "sha256": "c926ede4b7d9ae701db11ad8d1c85226893a286ea9dedeeb7b9a35813e4874bc",
+    "board": "R36S-V21 2024-12-18",
+    "image": "original",
+    "notes": "Made from the stock rk3326-r35s-linux.dtb with the native-mode fix. Default mode clock=29000 vertical=480,165,2,14 (~60 Hz)."
+  },
+  "v20": {
+    "sha256": "84e21d5bf4f90cf483209952fcc992f0b79d3ab9e2a745372f5845241dedb98a",
+    "board": "V20 clone",
+    "image": "clone",
+    "notes": "Website generator, R36S Clone, from the DTB scanned off the stock card. 151 init commands, speaker amp + headphone detect included. Default 30 MHz, ~80 Hz (factory)."
+  },
+  "soysauce": {
+    "sha256": "966e9974b9a2a80831ef14e6434608cfa9db3fe26ff5a534da4cb2a6334743a5",
+    "board": "Y3506_V05_20251215",
+    "image": "original",
+    "notes": "Generator with R36S Soysauce, then flags changed 0xe03 -> 0xa03 (continuous clock) to stop bleeding. Only that one byte differs from before-fix/."
+  }
+}
